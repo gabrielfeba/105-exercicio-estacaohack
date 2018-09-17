@@ -1,0 +1,189 @@
+body {
+    margin: 0 auto;
+    width: 69vw;
+    padding: 0;
+    font-family: sans-serif;
+}
+.barraazul {
+    width: 100%;
+    height: 4px;
+    background-color: rgba(74,202,255);
+}
+.linhaazul {
+    width: 100px;
+    height: 3px;
+    background-color: rgba(74,202,255);
+}
+header {
+    position: relative;
+    width: 100%;
+    height: 47vw;
+    color: white;
+}
+header>img {
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    position: absolute;
+    background-color: white;
+    opacity: 0.5;
+}
+header>div {
+    display: flex;
+    align-items: center;
+    padding-top: 6.8%;
+    justify-content: space-between;
+}
+.logo {
+    margin-left: 13.3%;
+}
+.logo p {
+    margin: 0;
+}
+.logo p:first-child {
+    font-size: 1.4em;
+    letter-spacing: 1.2px;
+}
+.logo p:last-child {
+    font-size: 0.6em;
+    letter-spacing: 6px;
+}
+nav a {
+    text-decoration: none;
+    color: white;
+    margin-left: 16px;
+}
+nav {
+    margin-right: 11.5%;
+    font-size: 0.7em;
+}
+header>div:last-child {
+    display: block;
+    margin-top: 7.4%;
+    margin-left: 12%;
+}
+header>div:last-child input[type='text'] {
+    width: 66%;
+    height: 35px;
+    border-radius: 3px;
+    padding-left: 15px;
+}
+header>div:last-child div {
+    margin-top: 3.0%;
+    font-style: italic;
+    font-size: 0.7em;
+}
+header>div:last-child div label {
+    margin-right: 17px;
+}
+header>div:last-child button {
+    margin-left: 7.2%;
+    background-color: rgba(74,202,255);
+}
+header>div:last-child div select {
+    margin-left: 12.5%;
+    height: 30px;
+    padding: 0 22px;
+}
+h1 {
+    font-style: italic;
+    font-weight: normal;
+    font-size: 2.7em;
+}
+button {
+    padding: 10px 30px;
+    border-radius: 3px;
+    cursor: pointer;
+    border: 2px solid rgba(74,202,255);
+}
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+section {
+    background-color: rgba(245,245,245);
+    height: 32.5vw;
+}
+section h3 {
+    margin-top: 9%;
+    letter-spacing: 2px;
+    font-style: italic;
+}
+section h2 {
+    margin-top: 0;
+    font-size: 2em;
+    letter-spacing: 1.5px;
+}
+section p {
+    margin-top: 4.5%;
+    width: 520px;
+    font-size: 0.9em;
+    text-align: center;
+}
+section button {
+    padding: 12px 25px;
+    font-size: 0.75em;
+    margin-top: 5%;
+    font-weight: bolder;
+    cursor: pointer;
+    color: rgba(74,202,255);
+    background-color: rgba(245,245,245);
+}
+.sectionemail {
+    background-color: rgba(19,28,37);
+    height: 24.5vw;
+}
+.sectionemail h4 {
+    color:white;
+    margin-top: 42%;
+    font-size: 0.9em;
+}
+.sectionemail input {
+    width: 250px;
+    height: 35px;
+    background-color: rgba(19,28,37);
+    border-radius: 3px;
+    margin-top: 5px;
+    border: 2px solid  rgba(74,202,255);
+    padding-left: 20px;
+}
+footer {
+    display: flex;
+    justify-content: space-between;
+    height: 15vw;
+    background-color: rgba(245,245,245);
+}
+footer>div {
+    display: flex;
+}
+
+footer>div:last-child {
+    align-items: center;
+    margin-bottom: 4.5%;
+    margin-right: 14%;
+}
+footer>div:last-child p {
+    font-size: 0.6em;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+footer>div:first-child {
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 4.2%;
+    margin-left: 14%;
+}
+footer>div:first-child h5{
+    font-size: 0.7em;
+    margin: 0;
+}
+footer>div:first-child p {
+    font-size: 0.8em;
+}
+footer img {
+    width: 25px;
+}
